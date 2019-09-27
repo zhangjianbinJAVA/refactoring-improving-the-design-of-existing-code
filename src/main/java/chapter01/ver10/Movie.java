@@ -29,7 +29,7 @@ public class Movie {
 			_price = new NewReleasePrice();
 			break;
 		default:
-			throw new IllegalArgumentException("Incorrect Price Code");
+			throw new IllegalArgumentException("Incorrect BasePrice Code");
 		}
 	}
 
